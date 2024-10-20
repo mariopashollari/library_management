@@ -7,6 +7,5 @@ public class Main {
     public static void main(String[] args) {
         HibernateUtils hibernateUtils = new HibernateUtils();
         SessionFactory sessionFactory = hibernateUtils.getSessionFactory();
-        System.out.println("Test");
     }
 }
